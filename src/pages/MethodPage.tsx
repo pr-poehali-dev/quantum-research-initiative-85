@@ -56,7 +56,7 @@ const MethodPage = () => {
           ))}
         </div>
 
-        <QuizButton />
+        <QuizButton href={method.quizUrl} />
 
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-between items-center">
           <Link to="/">
